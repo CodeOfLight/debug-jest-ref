@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@mathlib": ["../debug-jest-lib/src"],
+    }, 
+    "allowSyntheticDefaultImports" : true,
+    "downlevelIteration" : true,
+    "composite": true,
+    "skipLibCheck": false,
+    "rootDirs": ["src", "../debug-jest-lib/src"],
+  },"references": [
+    {"path": "../debug-jest-lib"}
+  ]
+}

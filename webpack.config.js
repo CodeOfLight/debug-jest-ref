@@ -23,5 +23,9 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    devtoolModuleFilenameTemplate: '[absolute-resource-path]'
   },
+  devtool: 'cheap-module-source-map',
+  target: ["node"],
+  mode: 'development'
 };

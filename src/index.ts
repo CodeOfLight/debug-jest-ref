@@ -1,6 +1,5 @@
-import {math} from '@mathlib'
+import { math } from '@mathlib'
 
-let result = math.add(1,1);
-let message: string = 'Adding 1 and 1 produces: ';
-console.log(message +result);
-
+const result = math.add(1, 1)
+const message: string = 'Adding 1 and 1 produces: '
+console.log(message + result)
